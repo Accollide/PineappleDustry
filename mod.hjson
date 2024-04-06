@@ -1,7 +1,7 @@
-name: "pineapple"
-displayName: "PineappleDustry"
-description: "AHAHAC?"
-author: "Fitz"
+name: "aaaa"
+displayName: "test"
+description: "idk what im doing"
+author: "echo"
 minGameVersion: "136"
 version: "0.1"
-hideBrowser: false
+hideBrowser: true
