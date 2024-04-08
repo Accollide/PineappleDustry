@@ -1,0 +1,13 @@
+type: Drill
+size: 2
+tier: 6
+drillTime: 200
+hardnessDrillMultiplier: 12
+itemCapacity: 40
+consumes: {
+  power: 1
+}
+category: production
+requirements: [
+  graphite/50
+]
