@@ -1,6 +1,6 @@
-name: Aluminum
-hardness: 15
+name: Rock Sand
+hardness: 3
 flammability: 0
 buildable: false
 cost: 1
-color: e8d174
+color: bbb66b

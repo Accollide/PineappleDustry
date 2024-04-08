@@ -11,7 +11,7 @@ consumes: {
     ]
   }
 }
-powerProduction: 30
+powerProduction: 1
 category: power
 requirements: [
   silicon/10
