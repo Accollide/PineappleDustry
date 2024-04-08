@@ -5,11 +5,11 @@ size: 2
 hasLiquids: false
 hasPower: true
 hasItems: true
-craftTime: 60
+craftTime: 200
 requirements: [lead/30, silicon/30]
 craftEffect: none
-outputItem: aluminum/1
-consumes: {power: 0.9, items: {items: [bauxite/1]}}
+outputItem: aluminum/3
+consumes: {power: 0.9, items: {items: [bauxite/9]}}
 research: silicon-smelter
 objectives: bauxite
 category: production
