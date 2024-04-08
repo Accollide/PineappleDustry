@@ -1,0 +1,15 @@
+name: Aluminum Blast Furnace
+type: GenericCrafter
+health: 250
+size: 2
+hasLiquids: false
+hasPower: true
+hasItems: true
+craftTime: 60
+requirements: [lead/30, silicon/30]
+craftEffect: none
+outputItem: aluminum/1
+consumes: {power: 0.9, items: {items: [bauxite/1]}}
+research: silicon-smelter
+objectives: bauxite
+category: production
