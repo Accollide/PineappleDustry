@@ -1,0 +1,18 @@
+type: ConsumeGenerator
+size: 1
+hasLiquids: false
+itemDuration: 50
+
+consumes: {
+  
+  items: {
+    items: [
+      coal/2
+    ]
+  }
+}
+powerProduction: 30
+category: power
+requirements: [
+  silicon/10
+]
