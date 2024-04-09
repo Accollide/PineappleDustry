@@ -1,0 +1,48 @@
+type: ItemTurret
+squareSprite: false
+size: 2
+health: 900
+cooldownTime: 40
+range: 210
+reload: 50
+rotateSpeed: 1.75
+recoil: 2
+shoot: {
+  type: ShootAlternate
+  spread: 7
+}
+shootSound: shootBig
+shake: 0.5
+targetAir: true
+ammoTypes: {
+  silver: {
+    damage: 40
+    splashDamage: 15
+    splashDamageRadius: 18
+    collidesAir: false
+    speed: 6
+    lifetime: 30
+    width: 9
+    height: 15
+    frontColor: fd8e8e
+    backColor: ad4244
+    trailColor: e65555
+    trailLength: 6
+    trailWidth: 1.8
+    smokeEffect: shootBigSmoke
+    despawnEffect: blastExplosion
+    hitSound: explosion
+    hitShake: 1
+    
+  }
+  
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: 0r-
+}
+category: turret
+research: duo
+requirements: [
+  silver/120
+]
