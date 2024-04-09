@@ -1,6 +1,6 @@
 type: ItemTurret
 squareSprite: false
-size: 2
+size: 1
 health: 900
 heatColor: e65555
 cooldownTime: 40
@@ -107,5 +107,3 @@ requirements: [
   graphite/100
 ]
 coolantMultiplier: 1.8
-envEnabled: -1
-envDisabled: 4
