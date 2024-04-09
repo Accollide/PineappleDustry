@@ -9,7 +9,7 @@ craftTime: 70
 requirements: [iron/30, aluminum/30]
 craftEffect: none
 outputItem: steel/1
-consumes: {power: 1.3, items: {items: [rock-sand/4]}}
+consumes: {power: 1.3, items: {items: [rock-sand/4, iron/2]}}
 research: silicon-smelter
 objectives: rock-sand
 category: crafting
