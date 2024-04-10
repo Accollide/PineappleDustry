@@ -107,3 +107,5 @@ requirements: [
   graphite/100
 ]
 coolantMultiplier: 1.8
+envEnabled: -1
+envDisabled: 4
