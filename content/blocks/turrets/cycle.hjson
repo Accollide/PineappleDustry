@@ -1,12 +1,12 @@
 type: ItemTurret
-squareSprite: false
+squareSprite: true
 size: 1
 health: 70
 heatColor: e65555
 cooldownTime: 20
 range: 210
-reload: 20
-rotateSpeed: 3
+reload: 10
+rotateSpeed: 5
 recoil: 2
 shoot: {
   type: ShootAlternate
@@ -17,7 +17,7 @@ targetAir: true
 ammoUseEffect: {
   casingFlip: true
   baseRotation: 90
-  lifetime: 250
+  lifetime: 25
   particles: 1
   length: 12
   randLength: false
