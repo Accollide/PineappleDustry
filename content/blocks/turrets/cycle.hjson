@@ -1,11 +1,11 @@
 type: ItemTurret
 squareSprite: false
 size: 1
-health: 900
+health: 70
 heatColor: e65555
 cooldownTime: 40
 range: 210
-reload: 50
+reload: 20
 rotateSpeed: 1.75
 recoil: 2
 shoot: {
@@ -35,40 +35,18 @@ ammoUseEffect: {
 }
 ammoTypes: {
   raw-iron: {
-    damage: 2
-    splashDamage: 0
-    splashDamageRadius: 0
-    collidesAir: false
-    speed: 6
-    lifetime: 30
-    width: 9
-    height: 15
-    frontColor: fd8e8e
-    backColor: ad4244
-    trailColor: e65555
-    trailLength: 6
-    trailWidth: 1.8
-    shootEffect: {
-      length: 0
-      cone: 0
-      particles: 1
-      lifetime: 15
-      sizeFrom: 20
-      sizeTo: 0
-      colorFrom: ffb3b3
-      colorTo: e65555
-      region: allure-shootspike
-    }
-    smokeEffect: shootBigSmoke
-    despawnEffect: blastExplosion
-    hitSound: explosion
-    hitShake: 1
+    damage: 6
+    pierce: false
+    speed: 12
+    lifetime: 25
+    width: 15
+    height: 22
   }
   iron: {
     damage: 6
     pierce: true
     pierceCap: 2
-    speed: 6
+    speed: 12
     lifetime: 25
     width: 15
     height: 22
