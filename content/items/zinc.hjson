@@ -1,0 +1,6 @@
+name: Zinc
+hardness: 3
+flammability: 0
+buildable: false
+cost: 1
+color: d16a6a
