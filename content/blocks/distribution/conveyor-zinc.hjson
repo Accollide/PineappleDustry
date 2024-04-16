@@ -1,19 +1,10 @@
-type: Duct
+type: Conveyor
+catagory: distribution
+health: 60
+speed: 0.1
+research: titanium-conveyor
+
+
 requirements: [
   zinc/1
 ]
-category: distribution
-speed: 7.5
-research: 0b-begin
-breakEffect: {
-  type: WaveEffect
-  rotation: 44
-  lifetime: 20
-  sides: 4
-  sizeFrom: 4
-  sizeTo: 8
-  strokeFrom: 3
-  strokeTo: 0
-  colorFrom: 7382f0
-  colorTo: 7382f0
-}
