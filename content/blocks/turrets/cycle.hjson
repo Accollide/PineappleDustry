@@ -44,7 +44,7 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: pineappledustry-turret-base
+  basePrefix: PineappleDustry-turret-base
 }
 category: turret
 research: core-fusion
