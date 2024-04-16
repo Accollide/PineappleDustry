@@ -6,7 +6,7 @@ hasLiquids: false
 hasPower: true
 hasItems: true
 craftTime: 70
-requirements: [zinc]
+requirements: [zinc/30]
 craftEffect: none
 outputItem: steel/1
 consumes: {power: 0.5, items: {items: [rock-sand/2, zinc/1]}}
