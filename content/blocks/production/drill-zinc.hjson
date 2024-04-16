@@ -1,11 +1,13 @@
 type: Drill
 size: 2
-tier: 1
+tier: 3
 drillTime: 600
-hardnessDrillMultiplier: 3
+hardnessDrillMultiplier: 5
 itemCapacity: 10
-
+consumes: {
+  power: 0.0
+}
 category: production
 requirements: [
-  zinc/50
+  zinc/20
 ]

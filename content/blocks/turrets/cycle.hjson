@@ -33,18 +33,9 @@ ammoUseEffect: {
   colorTo: ad4244
 }
 ammoTypes: {
-  raw-iron: {
+  zinc: {
     damage: 2
     pierce: false
-    speed: 12
-    lifetime: 25
-    width: 5
-    height: 10
-  }
-  iron: {
-    damage: 6
-    pierce: true
-    pierceCap: 2
     speed: 12
     lifetime: 25
     width: 5
@@ -53,10 +44,10 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: turret-base
+  basePrefix: pineappledustry-turret-base
 }
 category: turret
-research: duo
+research: core-fusion
 requirements: [
   iron/30
 ]
