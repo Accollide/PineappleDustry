@@ -1,0 +1,55 @@
+type: ItemTurret
+squareSprite: true
+size: 1
+health: 70
+heatColor: e65555
+cooldownTime: 20
+range: 210
+reload: 50
+rotateSpeed: 5
+recoil: 2
+
+shootSound: shootBig
+targetAir: true
+ammoUseEffect: {
+  casingFlip: false
+  baseRotation: 90
+  lifetime: 25
+  particles: 1
+  length: 12
+  randLength: false
+  cone: 15
+  offset: -90
+  spin: 1.8
+  region: allure-thin-case-back
+  sizeFrom: 2
+  sizeTo: 0
+  interp: pow3Out
+  sizeInterp: pow10In
+  colorFrom: ffb3b3
+  colorTo: ad4244
+}
+ammoTypes: {
+  
+  zinc: {
+    damage: 22
+    pierce: true
+    pierceCap: 10
+    speed: 20
+    lifetime: 25
+    width: 5
+    height: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: turret-base
+}
+category: turret
+research: cycle
+requirements: [
+  zinc/30
+]
+coolantMultiplier: 1.2
+envEnabled: -1
+envDisabled: 4

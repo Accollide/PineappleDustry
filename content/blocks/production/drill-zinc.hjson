@@ -1,0 +1,11 @@
+type: Drill
+size: 2
+tier: 1
+drillTime: 600
+hardnessDrillMultiplier: 3
+itemCapacity: 10
+
+category: production
+requirements: [
+  zinc/50
+]
