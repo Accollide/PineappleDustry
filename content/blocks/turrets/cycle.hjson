@@ -42,10 +42,7 @@ ammoTypes: {
     height: 10
   }
 }
-drawer: {
-  type: DrawTurret
-  basePrefix: PineappleDustry-turret-base
-}
+
 category: turret
 research: core-fusion
 requirements: [

@@ -52,6 +52,7 @@ category: turret
 research: cycle
 requirements: [
   zinc/70
+  cobalt/20
 ]
 coolantMultiplier: 1.2
 envEnabled: -1
