@@ -6,9 +6,9 @@ hasLiquids: false
 hasPower: true
 hasItems: true
 craftTime: 70
-requirements: [lead/30]
+requirements: [zinc/30, cobalt/20]
 craftEffect: none
 outputItem: steel/1
 consumes: {power: 0.5, items: {items: [rock-sand/2]}}
-research: duo
+research: core-fusion
 category: crafting

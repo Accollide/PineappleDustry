@@ -4,8 +4,8 @@ size: 1
 health: 70
 heatColor: e65555
 cooldownTime: 20
-range: 210
-reload: 50
+range: 100
+reload: 200
 rotateSpeed: 5
 recoil: 2
 shoot: {
@@ -37,7 +37,7 @@ ammoTypes: {
   zinc: {
     damage: 22
     pierce: true
-    pierceCap: 10
+    pierceCap: 3
     speed: 20
     lifetime: 25
     width: 5
@@ -51,7 +51,7 @@ drawer: {
 category: turret
 research: cycle
 requirements: [
-  zinc/30
+  zinc/70
 ]
 coolantMultiplier: 1.2
 envEnabled: -1

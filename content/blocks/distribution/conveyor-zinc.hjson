@@ -2,7 +2,7 @@ type: Conveyor
 catagory: distribution
 health: 60
 speed: 0.1
-research: titanium-conveyor
+research: core-fusion
 
 
 requirements: [

@@ -49,7 +49,7 @@ drawer: {
 category: turret
 research: core-fusion
 requirements: [
-  iron/30
+  zinc/30
 ]
 coolantMultiplier: 1.8
 envEnabled: -1
