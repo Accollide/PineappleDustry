@@ -1,7 +1,7 @@
 type: PowerNode
 size: 1
 maxNodes: 5
-laserRange: 18
+laserRange: 3
 category: power
 research: coal-burner
 requirements: [

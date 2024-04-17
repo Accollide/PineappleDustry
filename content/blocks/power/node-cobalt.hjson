@@ -1,0 +1,9 @@
+type: PowerNode
+size: 1
+maxNodes: 2
+laserRange: 15
+category: power
+research: node-zinc
+requirements: [
+  cobalt/8
+]
