@@ -3,22 +3,22 @@ targetGround: false
 health: 2000
 size: 3
 range: 270
-rotateSpeed: 2
-reload: 210
+rotateSpeed: 20
+reload: 100
 recoil: 3
-recoilTime: 150
-inaccuracy: 9
+recoilTime: 50
+inaccuracy: 30
 velocityRnd: 0.1
 shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
     spread: 8
-    shots: 2
+    shots: 12
   }
   dest: [
     {
-      shots: 4
+      shots: 8
       shotDelay: 8
     }
   ]
@@ -75,18 +75,17 @@ ammoTypes: {
     lifetime: 30
     width: 8
     height: 26
-    hitEffect: massiveExplosion
-    fragBullets: 8
+    fragBullets: 50
     fragBullet: {
       collidesGround: false
       pierceDamageFactor: 0.4
       pierce: true
       damage: 16
       speed: 8
-      drag: 0.05
+      drag: 0.00
       shrinkY: 1
-      lifetime: 25
-      width: 3
+      lifetime: 50
+      width: 30
       height: 15
     }
   }
