@@ -39,14 +39,19 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     speed: 20
-    lifetime: 25
+    lifetime: 3
     width: 5
     height: 10
   }
-}
-drawer: {
-  type: DrawTurret
-  basePrefix: turret-base
+  cobalt: {
+    damage: 30
+    pierce: true
+    pierceCap: 5
+    speed: 16
+    lifetime: 3
+    width: 5
+    height: 10
+  }
 }
 category: turret
 research: cycle
