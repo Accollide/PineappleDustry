@@ -1,13 +1,13 @@
-name: Core Fusion
+name: Core Genesis
 type: CoreBlock
-isFirstTier: false
+isFirstTier: true
 squareSprite: false
-size: 4
-health: 3500
-armor: 7
+size: 3
+health: 1000
+armor: 5
 unitType: gamma
-unitCapModifier: 23
-itemCapacity: 7000
+unitCapModifier: 18
+itemCapacity: 3000
 category: effect
 fogRadius: 60
 requirements: [

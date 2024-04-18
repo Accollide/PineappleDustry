@@ -1,8 +1,9 @@
+name: Zinc Drill
 type: Drill
 size: 2
 tier: 3
 drillTime: 600
-hardnessDrillMultiplier: 3
+hardnessDrillMultiplier: 1
 itemCapacity: 10
 category: production
 requirements: [

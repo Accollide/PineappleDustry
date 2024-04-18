@@ -1,8 +1,9 @@
 type: Conveyor
+name: Zinc Conveyor
 catagory: distribution
 health: 60
-speed: 0.1
-research: core-fusion
+speed: 0.03
+research: core-genesis
 
 
 requirements: [

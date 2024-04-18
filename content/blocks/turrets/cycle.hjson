@@ -1,3 +1,4 @@
+name: Cycle
 type: ItemTurret
 squareSprite: true
 size: 1
@@ -52,7 +53,7 @@ ammoTypes: {
 }
 
 category: turret
-research: core-fusion
+research: core-genesis
 requirements: [
   zinc/30
 ]

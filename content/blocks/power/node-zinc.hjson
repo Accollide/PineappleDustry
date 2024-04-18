@@ -1,3 +1,4 @@
+name: Zinc Node
 type: PowerNode
 size: 1
 maxNodes: 5
