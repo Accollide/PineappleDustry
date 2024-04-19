@@ -6,7 +6,7 @@ health: 70
 heatColor: e65555
 cooldownTime: 20
 range: 210
-reload: 10
+reload: 50
 rotateSpeed: 5
 recoil: 2
 shoot: {
@@ -35,7 +35,7 @@ ammoUseEffect: {
 }
 ammoTypes: {
   zinc: {
-    damage: 2
+    damage: 8
     pierce: false
     speed: 12
     lifetime: 15
@@ -43,7 +43,7 @@ ammoTypes: {
     height: 10
   }
   cobalt: {
-    damage: 5
+    damage: 13
     pierce: false
     speed: 8
     lifetime: 15
@@ -58,5 +58,5 @@ requirements: [
   zinc/30
 ]
 coolantMultiplier: 1.8
-envEnabled: -1
+envEnabled: 28
 envDisabled: 4

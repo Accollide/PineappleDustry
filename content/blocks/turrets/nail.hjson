@@ -36,20 +36,20 @@ ammoUseEffect: {
 ammoTypes: {
   
   zinc: {
-    damage: 22
+    damage: 28
     pierce: true
     pierceCap: 3
     speed: 20
-    lifetime: 3
+    lifetime: 10
     width: 5
     height: 10
   }
   cobalt: {
-    damage: 30
+    damage: 33
     pierce: true
     pierceCap: 5
     speed: 16
-    lifetime: 3
+    lifetime: 10
     width: 5
     height: 10
   }
@@ -61,5 +61,5 @@ requirements: [
   cobalt/20
 ]
 coolantMultiplier: 1.2
-envEnabled: -1
+envEnabled: 28
 envDisabled: 4
