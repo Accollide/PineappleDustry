@@ -5,7 +5,7 @@ squareSprite: false
 size: 4
 health: 3500
 armor: 7
-unitType: gamma
+unitType: conception
 unitCapModifier: 23
 itemCapacity: 7000
 category: effect
@@ -14,4 +14,3 @@ requirements: [
   zinc/3000
 ]
 envEnabled: 28
-envDisabled: 4

@@ -59,4 +59,3 @@ requirements: [
 ]
 coolantMultiplier: 1.8
 envEnabled: 28
-envDisabled: 4

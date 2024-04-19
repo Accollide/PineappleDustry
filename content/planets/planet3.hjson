@@ -1,5 +1,5 @@
 localizedName: panet3
-generator: tantPlanetGenerator
+generator: AsteroidGenerator
 defaultCore: core-genesis
 itemWhitelist: [
 zinc,
