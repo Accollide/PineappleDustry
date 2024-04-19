@@ -8,3 +8,5 @@ research: coal-burner
 requirements: [
   zinc/5
 ]
+envEnabled: 28
+envDisabled: 4

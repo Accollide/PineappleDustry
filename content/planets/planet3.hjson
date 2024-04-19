@@ -2,9 +2,12 @@ localizedName: panet3
 generator: tantPlanetGenerator
 defaultCore: core-genesis
 itemWhitelist: [
-sand,
-lead,
-metaglass,
+zinc,
+cobalt,
+rock-sand,
+silver,
+steel,
+coal
 ]
 itemBlacklist: [
 beryllium,
@@ -29,7 +32,7 @@ atmosphereRadIn: -.01
 atmosphereRadOut: 0.3
 atmosphereColor: 35808750
 iconColor: 597be3
-orbitRadius: 110
+orbitRadius: 50
 bloom: false
 orbitOffset: 115
 alwaysUnlocked: true

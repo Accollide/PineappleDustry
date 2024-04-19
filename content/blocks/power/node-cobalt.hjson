@@ -8,3 +8,5 @@ research: node-zinc
 requirements: [
   cobalt/8
 ]
+envEnabled: 28
+envDisabled: 4
