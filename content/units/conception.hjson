@@ -19,6 +19,12 @@ faceTarget: true
 strafePenalty: 0.0
 lightRadius: 0
 shieldColor: 7382f0
+mineWalls: true
+mineFloor: true
+mineSpeed: 3.5
+mineTier: 3
+
+
 
 weapons: [
   {
