@@ -1,89 +1,70 @@
-generator: AsteroidGenerator
-parent: sun
-radius: 0.7
-minZoom: 0.9
-atmosphereRadIn: 0
-atmosphereRadOut: 0.2
-atmosphereColor: e38f5baa
-iconColor: e38f5b
-orbitRadius: 7
-orbitOffset: 110
-accessible: true
-allowLaunchToNumbered: false
-sectorSize: 2
-totalRadius: 1.8
-defaultEnv: 17
-itemWhitelist: [
-  tungsten, 
-  surge-alloy,
-  silicon,
-  graphite,
-  carbide,
-  phase-fabric,
-  thorium,
-]
-bloom: true
-mesh: [
-  {
-    type: SunMesh 
-    divisions: 5
-    octaves: 1
-    persistence: 0.5
-    scl: 2
-    pow: 1
-    mag: 1
-    colorScale: 1
-    colors: [
-      ffd37f,
-      eab678,
-      d4816b
-    ]
-  }
-  {
-    type: NoiseMesh
-    divisions: 5
-    radius: 0.63
-    color1: e3b15b
-    color2: f06c6c
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 1.1
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    divisions: 5
-    radius: 0.6045
-    color1: 4a4b53
-    color2: 4a4b53
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 1.5
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-]
+  generator: "PlanetGenerator",
+    parent: "serpulo",
+    iconColor: 10d7e6,
+    orbitRadius: 10,
+    hasAtmosphere: true,
+    updateLighting: false,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.3,
+    atmosphereColor: 4caed9,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-2",
+    sectorSeed: 69,
+    startSector: 8,
+    sectorSize: 1,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
 cloudMesh: {
   type: HexSkyMesh
-  speed: -2.8
+  planet: Zilo
+  seed: 2
+  speed: 3
+  radius: 0.05
   divisions: 5
-  radius: 0.15
-  color: e3b578bb
-  octaves: 3
-  persistence: 0.5
-  scl: 0.7
-  thresh: 0.43
+  color: 52e5ff
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
 }
-research: {
-  parent: {
-    type: SectorComplete
-    preset: origin
-  }
-}
+    "mesh": {
+      "type": "NoiseMesh",
+      "planet": "Zilo",
+      "seed": 69,
+      "color1": " ffffff",
+      "color2": "498a8a",
+      "divisions": 4,
+      "radius": 0.8,
+      "octaves": 8,
+      "persistence": 1,
+      "scale": 2,
+      "mag": 1
+    }
