@@ -14,6 +14,7 @@ consumes: {
 powerProduction: 1
 category: power
 requirements: [
-  silicon/10
+  cobalt/10,
+  zinc/30
 ]
 research: core-genesis
