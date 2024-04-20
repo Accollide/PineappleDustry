@@ -2,11 +2,11 @@ name: Zinc Drill
 type: Drill
 size: 2
 tier: 1
-drillTime: 600
-hardnessDrillMultiplier: 1
+drillTime: 30
+hardnessDrillMultiplier: 10
 itemCapacity: 10
 category: production
 requirements: [
-  zinc/20
+  zinc/12
 ]
 research: core-genesis
