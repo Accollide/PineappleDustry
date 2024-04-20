@@ -17,5 +17,5 @@ research: {
     root: true
     name: "planet2"
     requiresUnlock: false
-    planet: p
+    planet: planet2
 }
