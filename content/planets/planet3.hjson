@@ -1,5 +1,5 @@
 
-sectorSize: 3
+sectorSize: 1
 
 orbitSpacing: 10
 orbitRadius: 30
@@ -24,7 +24,6 @@ clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-genesis
-landCloudColor: c92200
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [

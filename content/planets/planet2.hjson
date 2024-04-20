@@ -44,7 +44,7 @@
     ],
 cloudMesh: {
   type: HexSkyMesh
-  planet: Zilo
+  planet: planet2
   seed: 2
   speed: 3
   radius: 0.05
@@ -57,7 +57,7 @@ cloudMesh: {
 }
     "mesh": {
       "type": "NoiseMesh",
-      "planet": "Zilo",
+      "planet": "planet2",
       "seed": 69,
       "color1": " ffffff",
       "color2": "498a8a",
