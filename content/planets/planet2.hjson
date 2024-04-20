@@ -13,7 +13,7 @@
     defaultCore: core-genesis
     sectorSeed: 69,
     startSector: 8,
-    sectorSize: 1,
+    sectorSize: 2,
     clearSectorOnLose: true,
     allowSectorInvasion: false,
 	allowLaunchToNumbered: false,
