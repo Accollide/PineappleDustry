@@ -40,7 +40,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     speed: 20
-    lifetime: 10
+    lifetime: 15
     width: 5
     height: 10
   }
@@ -49,7 +49,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 5
     speed: 16
-    lifetime: 10
+    lifetime: 15
     width: 5
     height: 10
   }
