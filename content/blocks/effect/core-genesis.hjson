@@ -12,7 +12,7 @@ itemCapacity: 3000
 category: effect
 fogRadius: 60
 requirements: [
-  zinc/3000
+  zinc/1500
 ]
 research: {
     root: true

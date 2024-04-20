@@ -2,5 +2,5 @@ name: Cobalt
 hardness: 1
 flammability: 0
 buildable: false
-cost: 1
+cost: 0
 color: d16a6a

@@ -9,4 +9,3 @@ alwaysUnlocked: false
 requirements: [
   zinc/1
 ]
-envEnabled: 28
