@@ -13,4 +13,4 @@ fogRadius: 60
 requirements: [
   zinc/3000
 ]
-envEnabled: 28
+research: core-genesis

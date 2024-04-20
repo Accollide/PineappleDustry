@@ -2,6 +2,7 @@ name: Core Genesis
 type: CoreBlock
 isFirstTier: true
 squareSprite: false
+alwaysUnlocked: true
 size: 3
 health: 1000
 armor: 5

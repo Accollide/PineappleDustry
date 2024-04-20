@@ -9,4 +9,4 @@ category: production
 requirements: [
   zinc/20
 ]
-envEnabled: 28
+research: core-genesis
