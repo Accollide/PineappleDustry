@@ -13,4 +13,9 @@ fogRadius: 60
 requirements: [
   zinc/3000
 ]
-envEnabled: 28
+research: {
+    root: true
+    name: "planet2"
+    requiresUnlock: false
+    planet: p
+}
