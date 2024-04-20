@@ -7,5 +7,5 @@ research: core-genesis
 alwaysUnlocked: false
 
 requirements: [
-  zinc/1
+  zinc/2
 ]

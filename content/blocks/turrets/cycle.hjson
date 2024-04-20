@@ -6,7 +6,7 @@ health: 70
 heatColor: e65555
 cooldownTime: 20
 range: 210
-reload: 80
+reload: 20
 rotateSpeed: 5
 recoil: 2
 shoot: {
@@ -51,7 +51,7 @@ ammoTypes: {
     height: 10
   }
 }
-
+alwaysUnlocked: false
 category: turret
 research: core-genesis
 requirements: [
