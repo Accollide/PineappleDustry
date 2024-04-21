@@ -1,0 +1,39 @@
+type: mech
+name: attackU
+speed: 0.5
+flying: false
+health: 350
+hitSize: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: gun
+    alternate: false
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 10
+    recoil: 2
+    inaccuracy: 6
+    
+    bullet: {
+      speed: 4
+      lifetime: 24
+      damage: 7
+      pierce: false
+      pierceBuilding: false
+      pierceCap: 1
+      width: 3
+      height: 10
+        frontColor: 03f8fc
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      
+    }
+  }
+ ] 
+
+researchCostMultiplier: 0.05

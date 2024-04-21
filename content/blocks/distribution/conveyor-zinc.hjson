@@ -1,10 +1,10 @@
 type: Conveyor
 name: Zinc Conveyor
 catagory: distribution
-health: 60
+health: 30
 speed: 0.03
 research: core-genesis
-researchCostMultiplier: 0.01
+researchCostMultiplier: 0.05
 
 requirements: [
   zinc/1

@@ -3,8 +3,8 @@ type: Drill
 size: 2
 tier: 1
 drillTime: 600
-researchCostMultiplier: 0.01
-hardnessDrillMultiplier: 1
+researchCostMultiplier: 0.05
+hardnessDrillMultiplier: 0
 itemCapacity: 10
 category: production
 requirements: [

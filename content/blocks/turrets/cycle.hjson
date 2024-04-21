@@ -6,40 +6,22 @@ size: 1
 health: 70
 heatColor: e65555
 cooldownTime: 20
-range: 210
+range: 150
 reload: 20
 rotateSpeed: 5
-recoil: 2
+recoil: 0.6
 shoot: {
   type: ShootAlternate
   spread: 3
 }
 shootSound: shootBig
 targetAir: true
-ammoUseEffect: {
-  casingFlip: true
-  baseRotation: 90
-  lifetime: 25
-  particles: 1
-  length: 12
-  randLength: false
-  cone: 15
-  offset: -90
-  spin: 1.8
-  region: allure-thin-case-back
-  sizeFrom: 2
-  sizeTo: 0
-  interp: pow3Out
-  sizeInterp: pow10In
-  colorFrom: ffb3b3
-  colorTo: ad4244
-}
 ammoTypes: {
   zinc: {
     damage: 8
     pierce: false
     speed: 12
-    lifetime: 15
+    lifetime: 8
     width: 5
     height: 10
   }
@@ -47,7 +29,7 @@ ammoTypes: {
     damage: 13
     pierce: false
     speed: 8
-    lifetime: 15
+    lifetime: 8
     width: 5
     height: 10
   }
@@ -58,4 +40,4 @@ research: core-genesis
 requirements: [
   zinc/30
 ]
-coolantMultiplier: 1.8
+coolantMultiplier: 1.3

@@ -10,6 +10,7 @@ unitCapModifier: 23
 itemCapacity: 7000
 category: effect
 fogRadius: 60
+researchCostMultiplier: 0.23
 requirements: [
   zinc/3000
 ]

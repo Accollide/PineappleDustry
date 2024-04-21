@@ -1,11 +1,12 @@
 name: Nail
 type: ItemTurret
+researchCostMultiplier: 0.1
 squareSprite: true
 size: 1
 health: 70
 heatColor: e65555
 cooldownTime: 20
-range: 100
+range: 70
 reload: 200
 rotateSpeed: 5
 recoil: 2
@@ -15,24 +16,7 @@ shoot: {
 }
 shootSound: shootBig
 targetAir: true
-ammoUseEffect: {
-  casingFlip: false
-  baseRotation: 90
-  lifetime: 25
-  particles: 1
-  length: 12
-  randLength: false
-  cone: 15
-  offset: -90
-  spin: 1.8
-  region: allure-thin-case-back
-  sizeFrom: 2
-  sizeTo: 0
-  interp: pow3Out
-  sizeInterp: pow10In
-  colorFrom: ffb3b3
-  colorTo: ad4244
-}
+
 ammoTypes: {
   
   zinc: {
@@ -61,4 +45,3 @@ requirements: [
   cobalt/20
 ]
 coolantMultiplier: 1.2
-envEnabled: 28
