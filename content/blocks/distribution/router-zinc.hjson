@@ -1,0 +1,10 @@
+type: Router
+name: Zinc Router
+catagory: distribution
+health: 90
+research: conveyor-zinc
+researchCostMultiplier: 0.01
+
+requirements: [
+  zinc/6
+]

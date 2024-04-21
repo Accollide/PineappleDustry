@@ -1,4 +1,5 @@
 name: Cycle
+researchCostMultiplier: 0.05
 type: ItemTurret
 squareSprite: true
 size: 1

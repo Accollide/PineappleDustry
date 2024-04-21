@@ -4,8 +4,8 @@ catagory: distribution
 health: 60
 speed: 0.03
 research: core-genesis
-alwaysUnlocked: false
+researchCostMultiplier: 0.01
 
 requirements: [
-  zinc/2
+  zinc/1
 ]
