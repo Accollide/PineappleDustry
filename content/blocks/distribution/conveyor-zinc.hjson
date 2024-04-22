@@ -4,7 +4,7 @@ catagory: distribution
 health: 30
 speed: 0.03
 research: core-genesis
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1
 
 requirements: [
   zinc/1

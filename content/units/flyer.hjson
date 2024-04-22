@@ -1,0 +1,38 @@
+type: flying 
+flying: true
+envDisabled: 0
+health: 170
+speed: 7
+
+outlines: true 
+drawCell: true 
+buildSpeed: 2.25
+
+faceTarget: true
+
+lightRadius: 0
+
+
+weapons: [
+  {
+    name: gun2
+    alternate: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 10
+    recoil: 2
+    inaccuracy: 6
+    
+    bullet: {
+      speed: 4
+      lifetime: 24
+      damage: 5
+      width: 3
+      height: 10
+      
+    }
+  }
+ ] 
+

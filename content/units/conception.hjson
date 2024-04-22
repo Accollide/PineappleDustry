@@ -6,10 +6,9 @@ coreUnitDock: true
 hittable: false 
 targetable: false 
 physics: false 
-shadowElevationScl: 1
+
 speed: 7
-accel: 0.03
-drag: 0.07
+
 outlines: true 
 drawCell: true 
 buildSpeed: 2.25
@@ -26,10 +25,3 @@ mineTier: 3
 
 
 
-weapons: [
-  {
-    type: BuildWeapon
-    x: 8
-    y: -1
-  }
-]
