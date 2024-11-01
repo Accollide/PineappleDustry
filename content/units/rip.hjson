@@ -1,1 +1,47 @@
+type: flying 
+flying: true
+envDisabled: 0
+health: 170
+speed: 7
+
+outlines: true 
+drawCell: true 
+buildSpeed: 2.25
+
+faceTarget: true
+
+lightRadius: 0
+
+
+weapons: [
+  {
+     name: artillery
+                top: false
+                y: 1
+                x: 9;
+                reload: 60
+                recoil: 4
+                shake: 2
+                ejectEffect: Fx.casing2
+                shootSound: Sounds.artillery
+                bullet: {
+                    hitEffect: Fx.blastExplosion
+                    knockback: 0.8
+                    lifetime: 120
+                    width: 14
+                    height: 14
+                    collides: true
+                    collidesTiles: true
+                    splashDamageRadius: 35
+                    splashDamage: 80
+                    backColor: Pal.bulletYellowBack
+                    frontColor: Pal.bulletYellow
+                
+            }
+}
+        
+      
+    ]
+  }
+ ] 
 
