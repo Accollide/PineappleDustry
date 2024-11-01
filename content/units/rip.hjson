@@ -22,10 +22,8 @@ weapons: [
                 reload: 60
                 recoil: 4
                 shake: 2
-                ejectEffect: Fx.casing2
                 shootSound: Sounds.artillery
                 bullet: {
-                    hitEffect: Fx.blastExplosion
                     knockback: 0.8
                     lifetime: 120
                     width: 14
