@@ -1,0 +1,6 @@
+name: Nickel
+hardness: 1
+flammability: 0
+buildable: false
+cost: 1
+color: 95a2a1
