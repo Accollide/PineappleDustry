@@ -1,0 +1,6 @@
+name: flarestone
+hardness: 1
+flammability: 100
+buildable: false
+cost: 1
+color: 95a2a1
