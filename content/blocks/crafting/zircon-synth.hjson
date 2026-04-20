@@ -1,0 +1,14 @@
+name: zircon synthisizer
+type: GenericCrafter
+health: 250
+size: 2
+hasLiquids: false
+hasPower: true
+hasItems: true
+craftTime: 140
+requirements: [zinc/60, silver/20,lithium/40]
+craftEffect: none
+outputItem: zircon/2
+consumes: {power: 1, items: {items: [zinc/4, cobalt/1]}}
+research: lithium-maker
+category: crafting

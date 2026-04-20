@@ -1,6 +1,6 @@
 name: lithium
 hardness: 1
-flammability: 30
+flammability: 0.53
 buildable: false
 cost: 2
 color: 95a2a1
