@@ -1,0 +1,6 @@
+sector: 12
+planet: planet2
+difficulty: 1
+captureWave: 25
+alwaysUnlocked: false
+research: Caves

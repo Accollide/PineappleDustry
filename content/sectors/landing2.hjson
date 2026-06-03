@@ -1,0 +1,6 @@
+sector: 8
+planet: planet2
+difficulty: 1
+captureWave: 5
+alwaysUnlocked: true
+research: core-genesis

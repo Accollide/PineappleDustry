@@ -1,0 +1,38 @@
+type: mech
+name: Rampage
+speed: 0.26
+flying: false
+health: 5600
+hitSize: 42
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: rampage-weapon
+    alternate: true
+    x: -15
+    y: 0
+    shootY: 5
+    layerOffset: 0
+    reload: 20
+   recoil: 2
+    inaccuracy: 1
+    
+    bullet: {
+      speed: 9
+      lifetime: 34
+      damage: 72
+      width: 25
+      height: 30
+      despawnHit: true
+pierce: true
+pierceCap: 3
+            
+    }
+  }
+
+
+
+ ] 
+
+researchCostMultiplier: 1

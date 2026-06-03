@@ -1,0 +1,12 @@
+type: OverflowGate
+name: zinc underflow
+category: distribution
+invert: true
+researchCostMultiplier: 0.4
+
+requirements: [
+  zinc/6
+]
+research: zinc-overflow
+
+

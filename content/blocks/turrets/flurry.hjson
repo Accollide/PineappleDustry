@@ -1,0 +1,46 @@
+name: flurry
+type: ItemTurret
+researchCostMultiplier: 5
+squareSprite: true
+size: 3
+health: 2350
+heatColor: e65555
+range: 340
+reload: 1
+rotateSpeed: 2
+recoil: 1
+inaccuracy: 60
+consumes: {
+  power: 4
+}
+shoot: {
+  type: ShootAlternate
+  spread: 0
+  shots: 3
+}
+shootSound: shootBig
+targetAir: true
+
+ammoTypes: {
+  
+  cobalt: {
+    damage: 12
+    speed: 5
+    lifetime: 60
+    width: 5
+    height: 5
+    homingPower: 0.05
+    frontColor: ffffff
+    backColor: fafafa
+
+  }
+}
+category: turret
+research: cycle
+requirements: [
+  zinc/120
+  cobalt/160
+  steel/80
+  silver/90
+]
+coolantMultiplier: 1.2

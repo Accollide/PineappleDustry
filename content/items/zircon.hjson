@@ -1,6 +1,7 @@
-name: Zinc
-hardness: 1
-flammability: 0
+name: Zircon
+hardness: 8
+flammability: 0.5
+charge: 1.1
 buildable: false
-cost: 1
-color: 606867
+cost: 3
+color: 277f82

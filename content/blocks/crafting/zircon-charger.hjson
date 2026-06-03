@@ -1,0 +1,15 @@
+name: Zircon Charger
+type: GenericCrafter
+health: 250
+size: 3
+hasLiquids: true
+hasPower: true
+hasItems: true
+craftTime: 140
+requirements: [nichrome/50, steel/90, lithium/60]
+craftEffect: none
+outputItem: zircon/3
+consumes: {power: 4, items: {items: [zinc/6, lithium/4, steel/2]}, liquids:[acid/0.2]}
+research: zircon-infuser
+category: crafting
+researchCostMultiplier: 1

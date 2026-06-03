@@ -1,0 +1,79 @@
+name: Castcade
+researchCostMultiplier: 4
+type: LiquidTurret
+squareSprite: true
+size: 4
+shootCone: 5
+health: 990
+heatColor: e65555
+range: 250
+reload: 1
+rotateSpeed: 6
+recoil: 0.1
+inaccuracy: 3
+shoot: {
+  type: ShootAlternate
+  spread: 5
+  shots: 4
+  barrels: 4
+}
+shootSound: shootBig
+targetAir: false
+ammoTypes: {
+  acid: {
+    type: liquidBulletType
+    liquid: acid
+    puddleSize: 4
+    lifetime: 70
+    speed: 5
+    knockback: 0
+    orbSize: 4
+    statusDuration: 10
+    damage: 12
+    status: discovery-status-poison
+}
+water: {
+type: liquidBulletType
+    liquid: water
+    puddleSize: 4
+    lifetime: 70
+    speed: 5
+    knockback: 1
+    orbSize: 5
+    statusDuration: 10
+    damage: 3
+}  
+liquidnitrogen: {
+type: liquidBulletType
+    liquid: liquidnitrogen
+    puddleSize: 4
+    lifetime: 70
+    speed: 5
+    knockback: 0.1
+    orbSize: 3
+    status: discovery-status-frostbite
+    statusDuration: 10
+    damage: 7
+}  
+neoplasm: {
+type: liquidBulletType
+    liquid: neoplasm
+    puddleSize: 4
+    lifetime: 70
+    speed: 5
+    knockback: 0.1
+    orbSize: 2
+    statusDuration: 10
+    damage: 26
+}  
+
+}
+alwaysUnlocked: false
+category: turret
+research: splash
+requirements: [
+  zinc/180
+  steel/80
+  silver/30
+  glass/25
+]

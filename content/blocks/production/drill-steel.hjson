@@ -1,0 +1,27 @@
+name: Steel Drill
+type: Drill
+size: 2
+tier: 3
+drillTime: 500
+researchCostMultiplier: 1
+hardnessDrillMultiplier: 2
+itemCapacity: 10
+liquidBoostIntensity: 1.35
+
+consumes: {
+liquid: 
+    {
+      liquid: liquidnitrogen
+      amount: 0.1
+      optional: true
+      booster: true
+    }
+  
+}
+
+category: production
+requirements: [
+  cobalt/12
+  steel/12
+]
+research: drill-zinc

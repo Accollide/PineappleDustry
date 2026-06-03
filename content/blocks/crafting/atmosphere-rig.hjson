@@ -1,0 +1,34 @@
+name: Atmoshere Rig
+type: GenericCrafter
+researchCostMultiplier: 1
+health: 480
+size: 2
+hasLiquids: true
+hasPower: true
+hasItems: false
+craftTime: 70
+requirements: [zinc/30, cobalt/20, lithium/40, glass/20]
+craftEffect: none
+outputLiquid: argon/0.15
+consumes: {power: 0.5}
+research: glass-maker
+category: crafting
+
+drawer: [
+  {
+    //empty object to create the default draw of the block
+  }
+{
+    //draws a liquid/gas
+    type: DrawLiquidTile
+    //liquid to draw in this specific drawer
+    drawLiquid: argon
+    //border to prevent liquid showing on edges of the block
+    padding: 1
+  }
+{
+    type: DrawRegion
+    //this will look for "<block-name>-top"
+    suffix: -top
+  }
+]

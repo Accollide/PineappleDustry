@@ -1,0 +1,9 @@
+type: BufferedItemBridge
+itemCapacity: 10
+squareSprite: false
+range: 4
+research: router-zinc
+requirements: [
+  zinc/24
+]
+speed: 1

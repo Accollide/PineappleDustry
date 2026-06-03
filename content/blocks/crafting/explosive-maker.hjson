@@ -1,0 +1,15 @@
+name: explosive crafter
+type: GenericCrafter
+health: 450
+size: 3
+hasLiquids: false
+hasPower: true
+hasItems: true
+craftTime: 120
+requirements: [steel/25, cobalt/60, silver/80, lithium/40]
+craftEffect: none
+outputItem: explosive/1
+consumes: {power: 4, items:[coal/2, silt/4, lithium/3]}
+research: lithium-maker
+researchCostMultiplier: 1
+category: crafting

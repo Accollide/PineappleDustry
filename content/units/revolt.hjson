@@ -1,0 +1,79 @@
+type: mech
+name: Revolt
+speed: 0.26
+flying: false
+health: 5600
+hitSize: 42
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: biggun
+    alternate: true
+    x: 15
+    y: 3
+    shootY: 5
+    layerOffset: -1
+    reload: 20
+   recoil: 2
+    inaccuracy: 1
+    
+    bullet: {
+      speed: 9
+      lifetime: 34
+      damage: 72
+      width: 25
+      height: 30
+      despawnHit: true
+pierce: true
+pierceCap: 3
+            
+    }
+  },
+{
+    name: gun2
+    alternate: true
+    x: 6
+    y: 1
+    shootY: 5
+    layerOffset: -1
+    reload: 14
+    recoil: 2
+    inaccuracy: 3
+    
+    bullet: {
+      speed: 6
+      lifetime: 54
+      damage: 22
+      width: 8
+      height: 10
+      despawnHit: true
+            
+    }
+  },
+{
+    name: gun3
+    alternate: true
+    x: 9
+    y: -3
+    shootY: 5
+    layerOffset: -1
+    reload: 12
+    recoil: 2
+    inaccuracy: 3
+    
+    bullet: {
+      speed: 7
+      lifetime: 54
+      damage: 14
+      width: 7
+      height: 13
+      despawnHit: true
+            
+    }
+  },
+
+
+ ] 
+
+researchCostMultiplier: 1

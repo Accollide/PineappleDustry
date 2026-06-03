@@ -1,0 +1,89 @@
+name: Firework
+type: ItemTurret
+researchCostMultiplier: 5
+squareSprite: true
+size: 3
+health: 2350
+heatColor: e65555
+range: 340
+reload: 200
+rotateSpeed: 3
+recoil: 1
+inaccuracy: 0
+shoot: {
+  type: ShootAlternate
+  spread: 0
+  shots: 1
+}
+shootSound: shootBig
+targetAir: true
+
+ammoTypes: {
+  
+  radon: {
+    damage: 24
+    speed: 5
+    lifetime: 60
+    width: 20
+    height: 20
+    homingPower: 0.05
+    fragBullets: 12
+    fragBullet: {
+      damage: 12
+      speed: 3
+      lifetime: 60
+      width: 10
+      height: 10
+      homingPower: 0.1
+fragBullets: 12
+    fragBullet: {
+      damage: 6
+      speed: 2
+      lifetime: 60
+      width: 5
+      height: 5
+      homingPower: 0.2
+
+        }
+
+        }
+
+  }
+silver: {
+    damage: 36
+    speed: 5
+    lifetime: 60
+    width: 20
+    height: 20
+    fragBullets: 12
+    fragBullet: {
+      damage: 20
+      speed: 3
+      lifetime: 60
+      width: 10
+      height: 10
+      fragBullets: 12
+    fragBullet: {
+      damage: 8
+      speed: 2
+      lifetime: 60
+      width: 5
+      height: 5
+      
+        }
+
+        }
+
+  }
+
+}
+research: midtur
+category: turret
+requirements: [
+  zinc/50
+  silver/35
+  steel/30
+  
+]
+
+coolantMultiplier: 1.2

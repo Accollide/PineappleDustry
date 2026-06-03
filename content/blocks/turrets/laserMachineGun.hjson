@@ -1,0 +1,37 @@
+name: Laser Machine gun
+type: PowerTurret
+researchCostMultiplier: 6
+squareSprite: true
+size: 2
+health: 770
+heatColor: e65555
+cooldownTime: 20
+range: 150
+reload: 5
+rotateSpeed: 5
+recoil: 2
+consumes: {
+  power: 3.5
+} 
+
+shoot: {
+  type: ShootAlternate
+  spread: 0
+}
+shootSound: shootBig
+targetAir: false
+shootType: {
+  type: LaserBulletType
+  length: 150
+  width: 24
+  damage: 15
+}
+
+category: turret
+research: laserTurret
+requirements: [
+  zinc/130
+  cobalt/160
+  steel/110
+  lithium/80
+]

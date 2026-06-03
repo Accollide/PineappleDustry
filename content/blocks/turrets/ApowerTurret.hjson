@@ -1,0 +1,37 @@
+name: powerTurretA
+type: PowerTurret
+researchCostMultiplier: 0.1
+squareSprite: true
+size: 1
+health: 70
+heatColor: e65555
+cooldownTime: 20
+range: 150
+reload: 100
+rotateSpeed: 5
+recoil: 2
+consumes: {
+  power: 0.6
+} 
+
+shoot: {
+  type: ShootAlternate
+  spread: 0
+}
+shootSound: shootBig
+targetAir: false
+shootType: {
+  type: LaserBulletType
+  length: 150
+  width: 24
+  damage: 15
+}
+
+category: turret
+research: cycle
+requirements: [
+  zinc/30
+  cobalt/60
+  steel/45
+]
+coolantMultiplier: 1.2

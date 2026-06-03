@@ -1,0 +1,6 @@
+name: Carbon Steel
+hardness: 1
+flammability: 0
+buildable: false
+cost: 2
+color: 606867

@@ -1,0 +1,46 @@
+name: midtur
+researchCostMultiplier: 1
+type: ItemTurret
+squareSprite: true
+size: 2
+health: 360
+heatColor: e65555
+cooldownTime: 20
+range: 135
+reload: 20
+rotateSpeed: 5
+recoil: 0.6
+shoot: {
+  shots: 2
+  type: ShootAlternate
+  spread: 0
+}
+shootSound: shootBig
+targetAir: true
+ammoTypes: {
+  cobalt: {
+    damage: 18
+    pierce: false
+    speed: 7
+    lifetime: 15
+    width: 5
+    height: 10
+  }
+  steel: {
+    damage: 25
+    pierce: false
+    speed: 10
+    lifetime: 15
+    width: 5
+    height: 13
+  }
+}
+alwaysUnlocked: false
+category: turret
+research: cycle
+requirements: [
+  zinc/30,
+  cobalt/45,
+  steel/30
+]
+coolantMultiplier: 1.6

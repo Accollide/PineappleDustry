@@ -1,0 +1,53 @@
+name: Haze
+researchCostMultiplier: 2
+type: LiquidTurret
+squareSprite: true
+size: 3
+shootCone: 5
+health: 990
+heatColor: e65555
+range: 100
+reload: 1
+rotateSpeed: 5
+recoil: 0.1
+inaccuracy: 35
+shoot: {
+  type: ShootAlternate
+  spread: 0
+}
+shootSound: shootBig
+targetAir: false
+ammoTypes: {
+  acid: {
+    type: liquidBulletType
+    liquid: acid
+    puddleSize: 0
+    lifetime: 250
+    speed: 1
+    knockback: 0
+    orbSize: 4
+    statusDuration: 500
+    damage: 0
+    status: discovery-status-poison
+}
+neoplasm: {
+    type: liquidBulletType
+    liquid: neoplasm
+    lifetime: 250
+    speed: 1
+    knockback: 0
+    orbSize: 4
+    damage: 12
+    
+}
+  
+}
+alwaysUnlocked: false
+category: turret
+research: splash
+requirements: [
+  zinc/180
+  steel/80
+  silver/30
+  glass/60
+]

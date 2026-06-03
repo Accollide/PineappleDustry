@@ -1,0 +1,7 @@
+name: Nichrome
+hardness: 8
+flammability: 0.5
+charge: 0.7
+buildable: false
+cost: 3
+color: 277f82

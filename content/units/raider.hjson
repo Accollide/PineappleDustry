@@ -1,0 +1,33 @@
+type: mech
+name: Raider
+speed: 0.45
+flying: false
+health: 170
+hitSize: 12
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: gun
+    alternate: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 10
+    recoil: 2
+    inaccuracy: 9
+    
+    bullet: {
+      speed: 4
+      lifetime: 24
+      damage: 11
+      width: 5
+      height: 10
+      despawnHit: true
+            
+    }
+  }
+ ] 
+
+researchCostMultiplier: 1

@@ -1,0 +1,6 @@
+name: radon
+hardness: 4
+flammability: 0
+buildable: false
+cost: 1
+color: e8d174

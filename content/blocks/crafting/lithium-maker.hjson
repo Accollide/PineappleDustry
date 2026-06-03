@@ -1,4 +1,4 @@
-name: lithium maker
+name: Lithium Maker
 type: GenericCrafter
 health: 250
 size: 2
@@ -6,9 +6,10 @@ hasLiquids: false
 hasPower: true
 hasItems: true
 craftTime: 70
-requirements: [zinc/30, nickel/45]
+requirements: [zinc/20, cobalt/40]
 craftEffect: none
-outputItem: lithium/1
-consumes: {power: 0.75, items: {items: [rock-sand/2, nickel/1]}}
+outputItem: lithium/2
+consumes: {power: 2, items: {items: [silt/4, zinc/2]}}
 research: steel-press
 category: crafting
+researchCostMultiplier: 1

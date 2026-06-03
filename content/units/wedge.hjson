@@ -1,0 +1,34 @@
+type: tank
+name: Wedge
+speed: 0.40
+flying: false
+health: 220
+hitSize: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: cannon
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 26
+    recoil: 2
+    inaccuracy: 0
+    
+    bullet: {
+      speed: 7
+      lifetime: 24
+      damage: 18
+      width: 7
+      height: 10
+      despawnHit: true
+      despawnEffect: none
+      
+    }
+  }
+ ] 
+
+researchCostMultiplier: 0.05

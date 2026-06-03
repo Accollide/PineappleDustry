@@ -1,0 +1,40 @@
+name: Thunder
+type: PowerTurret
+researchCostMultiplier: 1
+squareSprite: true
+size: 4
+health: 1640
+inaccuracy: 26
+heatColor: e65555
+cooldownTime: 20
+range: 100
+reload: 100
+rotateSpeed: 5
+recoil: 2
+consumes: {
+  power: 6
+} 
+
+shoot: {
+  type: ShootAlternate
+  spread: 0
+  shots:10
+}
+shootSound: shootBig
+targetAir: false
+shootType: {
+  type: LaserBulletType
+  length: 100
+  width: 70
+  damage: 74
+  frontColor: ffe300
+}
+
+category: turret
+research: laserTurret
+requirements: [
+  zinc/750
+  cobalt/680
+  steel/450
+  lithium/480
+]

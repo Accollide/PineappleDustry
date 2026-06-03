@@ -1,0 +1,16 @@
+
+name: soft Drill
+type: BurstDrill
+size: 3
+tier: 1
+drillTime: 250
+researchCostMultiplier: 1
+hardnessDrillMultiplier: 1
+itemCapacity: 40
+consumes: {
+	power: 0.1
+}
+category: production
+requirements: [cobalt/170, steel/60,glass/20]
+research: drill-steel
+

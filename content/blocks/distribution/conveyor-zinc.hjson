@@ -4,8 +4,8 @@ catagory: distribution
 health: 30
 speed: 0.03
 research: core-genesis
-researchCostMultiplier: 0.1
-
+researchCostMultiplier: 1
+junctionReplacement: junction-zinc
 requirements: [
   zinc/1
 ]

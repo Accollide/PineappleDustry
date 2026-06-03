@@ -18,18 +18,18 @@ shootSound: shootBig
 targetAir: true
 ammoTypes: {
   zinc: {
-    damage: 8
+    damage: 6
     pierce: false
     speed: 12
-    lifetime: 8
+    lifetime: 15
     width: 5
     height: 10
   }
-  cobalt: {
-    damage: 13
+  steel: {
+    damage: 8
     pierce: false
     speed: 8
-    lifetime: 8
+    lifetime: 15
     width: 5
     height: 10
   }

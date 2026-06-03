@@ -1,0 +1,7 @@
+name: Explosive
+exploseiveness: 100
+hardness: 2
+flammability: 10
+buildable: false
+cost: 3
+color: ff0000

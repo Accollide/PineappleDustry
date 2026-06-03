@@ -1,0 +1,54 @@
+name: Rune
+researchCostMultiplier: 25
+type: ContinuousTurret
+squareSprite: true
+size: 3
+health: 5070
+range: 230
+rotateSpeed: 1
+recoil: 0.6
+shootSound: shootBig
+targetAir: false
+shoot: {
+  type: ShootAlternate
+  spread: 10
+  shots: 2
+}
+
+consumes: {
+power: 45
+}
+shootType: {
+  type: PointLaserBulletType
+  damage: 100
+  length: 5
+  drawSize: 5
+  //sprite: discovery-vortexA
+  color: cb00ff
+  pointEffectSpace: 40
+  pointEffect: {
+    length: -40
+    cone: 0
+    sprite: discovery-vortexA
+    lifetime: 25
+    particles: 1
+    randLength: false
+    sizeFrom: 20
+    sizeTo: 20
+    colorFrom: 7382f0
+    colorTo: 7382f000
+  }
+
+   
+  
+}
+alwaysUnlocked: false
+category: turret
+research: thunder
+requirements: [
+  glass/50
+  cobalt/160
+  steel/95
+  lithium/110
+  silver/150
+]

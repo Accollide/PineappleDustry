@@ -24,16 +24,16 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     speed: 20
-    lifetime: 15
+    lifetime: 5
     width: 5
     height: 10
   }
-  cobalt: {
-    damage: 33
+  steel: {
+    damage: 48
     pierce: true
     pierceCap: 5
     speed: 16
-    lifetime: 15
+    lifetime: 5
     width: 5
     height: 10
   }

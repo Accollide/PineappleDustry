@@ -1,0 +1,36 @@
+type: tank
+name: laserTank
+speed: 0.40
+flying: false
+health: 2024
+hitSize: 10
+outlineColor: 44413c
+aimDst: 50
+range: 150
+weapons: [
+  {
+    name: laser
+    //x: 0
+    //y: 0
+    //shootY: 5
+    //layerOffset: -1
+    //reload: 0
+    //recoil: 2
+    mirror: false
+    alwaysContinuous: true
+    aimChangeSpeed: 1
+    rotate: true
+
+    bullet: {
+	type: PointLaserBulletType
+          color: ff1234
+continuous: true
+length: 220
+     //beamEffect: vaporSmall
+      //speed: 5
+      damage: 24                  
+    }
+  }            
+]
+
+researchCostMultiplier: 0.05

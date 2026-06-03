@@ -1,0 +1,30 @@
+name: Silver  Drill
+type: Drill
+size: 3
+tier: 4
+drillTime: 300
+researchCostMultiplier: 1
+hardnessDrillMultiplier: 1.5
+itemCapacity: 10
+liquidBoostIntensity: 1.1
+
+consumes: {
+  power: 6
+  liquid: 
+    {
+      liquid: liquidnitrogen
+      amount: 0.15
+      optional: true
+      booster: true
+    }
+  
+}
+
+category: production
+requirements: [
+  cobalt/150
+  steel/60
+  lithium/50
+  silver/35
+]
+research: drill-steel

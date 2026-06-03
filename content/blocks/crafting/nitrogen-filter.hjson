@@ -1,0 +1,33 @@
+name: nitrogen Filter
+type: GenericCrafter
+health: 480
+size: 3
+hasLiquids: true
+hasPower: true
+craftTime: 70
+requirements: [cobalt/50, lithium/40, silver/30]
+craftEffect: none
+outputLiquid: nitrogen/0.15
+consumes: {power: 1, liquids:[argon/0.2]}
+research: atmosphere-rig
+category: crafting
+researchCostMultiplier: 1
+drawer: [
+  {
+    //empty object to create the default draw of the block
+  }
+{
+    //draws a liquid/gas
+    type: DrawLiquidTile
+    //liquid to draw in this specific drawer
+    drawLiquid: nitrogen
+    //border to prevent liquid showing on edges of the block
+    padding: 1
+  }
+{
+    type: DrawRegion
+    //this will look for "<block-name>-top"
+    suffix: -top
+  }
+]
+

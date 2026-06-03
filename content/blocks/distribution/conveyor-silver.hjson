@@ -1,0 +1,12 @@
+type: Conveyor
+name: Silver Conveyor
+catagory: distribution
+health: 60
+speed: 0.06
+research: conveyor-zinc
+researchCostMultiplier: 1
+junctionReplacement: junction-zinc
+requirements: [
+  zinc/3
+  silver/1
+]

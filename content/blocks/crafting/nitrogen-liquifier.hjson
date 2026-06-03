@@ -1,0 +1,15 @@
+name: nitrogen liquifier
+type: GenericCrafter
+health: 480
+size: 2
+hasLiquids: true
+hasPower: true
+hasItems: true
+craftTime: 70
+requirements: [cobalt/50, lithium/40, silver/30]
+craftEffect: none
+outputLiquid: liquidnitrogen/0.2
+consumes: {power: 2, items:[cobalt/3], liquids:[nitrogen/0.2]}
+research: atmosphere-rig
+category: crafting
+researchCostMultiplier: 1

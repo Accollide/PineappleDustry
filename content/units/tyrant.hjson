@@ -1,0 +1,38 @@
+type: mech
+name: Tyrant
+speed: 0.25
+flying: false
+health: 2500
+hitSize: 24
+outlineColor: 44413c
+mechLegColor: 44413c
+range: 150
+weapons: [
+  {
+    name: laser
+    alternate: true
+    x: 12
+    y: 3
+    shootY: 5
+    layerOffset: -1
+    reload: 20
+    recoil: 2
+    inaccuracy: 4
+    continuous: true
+    bullet: {
+	type: pointLaserBulletType
+      speed: 0
+      lifetime: 24
+      damage: 24
+      width: 10
+      height: 20
+      despawnHit: true
+            
+    }
+  }            
+    
+  
+
+ ] 
+
+researchCostMultiplier: 1

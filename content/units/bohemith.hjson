@@ -1,0 +1,100 @@
+type: tank
+name: Bohemith
+speed: 0.4
+flying: false
+health: 25000
+hitSize: 10
+outlineColor: 44413c
+
+
+
+omniMovement: false
+rotateMoveFirst: true
+treadFrames: 30
+
+
+
+
+weapons: [
+  {
+    name: bohemith-weapon
+    alternate: true
+    rotate: true
+    x: -10
+    y: -12
+        shootY: 5
+    //layerOffset: -1
+    reload: 30
+    recoil: 2
+    inaccuracy: 0
+    
+    bullet: {
+
+
+	type: BasicBulletType
+      speed: 5
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 50
+      damage: 30
+      width: 5
+      height: 5
+                  
+    }
+  },
+  {
+  name: bohemith-weapon
+    alternate: true
+    rotate: true
+    x: -16
+    y: -3
+        shootY: 5
+    //layerOffset: -1
+    reload: 20
+    recoil: 2
+    inaccuracy: 0
+    
+    bullet: {
+
+
+	type: BasicBulletType
+      speed: 5
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 50
+      damage: 22
+      width: 5
+      height: 5
+                  
+    }
+  },
+  {
+  name: bohemith-weapon
+    alternate: true
+    rotate: true
+    x: -10
+    y: 16
+        shootY: 5
+    //layerOffset: -1
+    reload: 45
+    recoil: 2
+    inaccuracy: 0
+    
+    bullet: {
+
+
+	type: BasicBulletType
+      speed: 5
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 50
+      damage: 38
+      width: 5
+      height: 5
+                  
+    }
+  }
+
+]
+
+researchCostMultiplier: 1

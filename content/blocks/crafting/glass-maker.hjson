@@ -1,0 +1,15 @@
+name: Rotary Kiln
+type: GenericCrafter
+health: 250
+size: 2
+hasLiquids: false
+hasPower: true
+hasItems: true
+craftTime: 70
+requirements: [zinc/30, cobalt/20, steel/15]
+craftEffect: none
+outputItem: glass/1
+consumes: {power: 0.3, items: {items: [sand/2, coal/1]}}
+research: steel-press
+category: crafting
+researchCostMultiplier: 1

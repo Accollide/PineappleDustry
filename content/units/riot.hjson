@@ -1,0 +1,55 @@
+type: mech
+name: Riot
+speed: 0.45
+flying: false
+health: 2750
+hitSize: 12
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: gun
+    alternate: true
+    x: 12
+    y: 3
+    shootY: 5
+    layerOffset: -1
+    reload: 27
+   recoil: 2
+    inaccuracy: 4
+    
+    bullet: {
+      speed: 6
+      lifetime: 48
+      damage: 44
+      width: 10
+      height: 20
+      despawnHit: true
+            
+    }
+  },
+{
+    name: gun2
+    alternate: true
+    x: 7
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 14
+    recoil: 2
+    inaccuracy: 4
+    
+    bullet: {
+      speed: 5
+      lifetime: 54
+      damage: 13
+      width: 5
+      height: 10
+      despawnHit: true
+            
+    }
+  },
+
+ ] 
+
+researchCostMultiplier: 1

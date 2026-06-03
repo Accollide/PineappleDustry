@@ -1,0 +1,16 @@
+name: cinnibar crafter
+type: GenericCrafter
+health: 450
+size: 3
+hasLiquids: true
+hasPower: true
+hasItems: true
+craftTime: 120
+requirements: [steel/45, cobalt/60, silver/40, lithium/35]
+craftEffect: none
+outputItem: cinnibar/1
+outputLiquid: acid/0.2
+consumes: {power: 4, items: {items: [silver/2, sand/3]}, liquids:[argon/0.1]}
+research: lithium-maker
+researchCostMultiplier: 1
+category: crafting

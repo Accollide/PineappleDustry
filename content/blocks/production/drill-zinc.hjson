@@ -1,11 +1,26 @@
 name: Zinc Drill
 type: Drill
 size: 2
-tier: 1
+tier: 2
 drillTime: 600
 researchCostMultiplier: 0.05
-hardnessDrillMultiplier: 0
+hardnessDrillMultiplier: 1.2
+liquidBoostIntensity: 1.2
+
 itemCapacity: 10
+consumes: {
+liquid: 
+    {
+      liquid: liquidnitrogen
+      amount: 0.08
+      optional: true
+      booster: true
+    }
+  
+}
+
+
+
 category: production
 requirements: [
   zinc/12

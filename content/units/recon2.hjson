@@ -1,0 +1,47 @@
+type: tank
+name: Cavalier
+speed: 2
+flying: false
+health: 600
+hitSize: 5
+outlineColor: 44413c
+
+
+
+omniMovement: false
+rotateMoveFirst: true
+
+
+
+
+weapons: [
+  {
+    name: recon2-weapon
+    alternate: true
+    rotate: true
+    x: 1
+    y: -1
+        shootY: 5
+    //layerOffset: -1
+    reload: 15
+    recoil: 1
+    inaccuracy: 0
+    
+    bullet: {
+
+
+	type: BasicBulletType
+      speed: 5
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 50
+      damage: 12
+      width: 5
+      height: 5
+                  
+    }
+  }
+
+]
+
+researchCostMultiplier: 1

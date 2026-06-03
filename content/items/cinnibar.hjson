@@ -1,0 +1,6 @@
+name: cinnibar
+hardness: 2
+flammability: 10
+buildable: false
+cost: 3
+color: db5519

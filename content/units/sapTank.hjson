@@ -1,0 +1,45 @@
+type: tank
+name: nebulaTank
+speed: 0.40
+flying: false
+health: 2024
+hitSize: 10
+outlineColor: 44413c
+
+weapons: [
+  {
+    name: nebula-cannon
+    alternate: false
+    x: 0
+    y: 0
+        shootY: 5
+    layerOffset: -1
+    reload: 60
+    recoil: 2
+    inaccuracy: 12
+    
+    bullet: {
+shoot: {
+        shots: 6
+      type: ShootMulti
+    }
+
+	type: BasicBulletType
+      speed: 5
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 50
+      damage: 48
+      width: 20
+      height: 20
+	spin: 20
+      pierce: true
+      pierceCap: 10
+	sprite: discovery-color-vortexB
+                  
+    }
+  }
+
+]
+
+researchCostMultiplier: 1

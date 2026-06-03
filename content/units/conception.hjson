@@ -1,4 +1,5 @@
 type: flying 
+payloadCapacity: 700
 flying: true
 envDisabled: 0
 health: 350
@@ -6,7 +7,7 @@ coreUnitDock: true
 hittable: false 
 targetable: false 
 physics: false 
-
+omniMovement: true
 speed: 7
 
 outlines: true 
@@ -15,7 +16,6 @@ buildSpeed: 2.25
 drawBuildBeam: true 
 buildRange: 120
 faceTarget: true
-strafePenalty: 0.0
 lightRadius: 0
 shieldColor: 7382f0
 mineWalls: true

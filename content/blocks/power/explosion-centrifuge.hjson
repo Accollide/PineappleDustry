@@ -1,0 +1,28 @@
+type: ConsumeGenerator
+size: 3
+hasLiquids: true
+itemDuration: 250
+
+consumes: {
+  
+  items: {
+    items: [
+      explosive/1
+    ]
+    }
+	liquids: {
+	liquids: [
+	liquidnitrogen/0.2
+]
+}
+}
+powerProduction: 25
+category: power
+requirements: [
+  silver/40,
+  zinc/130,
+  lithium/70,
+  steel/80
+  radon/30
+]
+research: power4

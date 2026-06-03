@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 size: 1
 hasLiquids: false
-itemDuration: 50
+itemDuration: 400
 
 consumes: {
   
@@ -9,7 +9,7 @@ consumes: {
     items: [
       coal/2
     ]
-  }
+    }
 }
 powerProduction: 1
 category: power

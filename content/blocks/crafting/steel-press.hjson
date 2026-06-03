@@ -3,12 +3,13 @@ type: GenericCrafter
 health: 250
 size: 2
 hasLiquids: false
-hasPower: true
+hasPower: false
 hasItems: true
-craftTime: 70
+craftTime: 120
 requirements: [zinc/30, cobalt/20]
 craftEffect: none
 outputItem: steel/1
-consumes: {power: 0.5, items: {items: [rock-sand/2, cobalt/1]}}
+consumes: {items: {items: [cobalt/2]}}
 research: core-genesis
 category: crafting
+researchCostMultiplier: 1

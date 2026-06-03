@@ -1,0 +1,46 @@
+name: HellFire
+researchCostMultiplier: 29
+type: ContinuousTurret
+squareSprite: true
+size: 3
+health: 2690
+heatColor: e65555
+cooldownTime: 0
+range: 150
+reload: 1
+rotateSpeed: 2
+recoil: 0.6
+inaccuracy: 0
+shoot: {
+  type: ShootAlternate
+  spread: 12
+  shots: 2
+}
+shootSound: shootBig
+targetAir: true
+consumes: {
+power: 12
+}
+shootType: {
+  type: ContinuousFlameBulletType
+  shake: 2
+  lifetime: 250
+  pierceCap: 3
+  length: 240
+  width: 5
+  damage: 76
+  buildingDamageMultiplier: 0
+  colors: [ff7c7c45, ff5d5d90, ff3e3eaa, ff1f1f, ffffff]
+
+}
+alwaysUnlocked: false
+category: turret
+research: laserMachineGun
+requirements: [
+  zinc/300
+  steel/340
+  lithium/280
+  silver/470
+
+]
+coolantMultiplier: 1.2

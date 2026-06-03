@@ -1,0 +1,15 @@
+name: Carbon Steel Press
+type: GenericCrafter
+health: 250
+size: 2
+hasLiquids: false
+hasPower: true
+hasItems: true
+craftTime: 200
+requirements: [steel/25, zinc/45, cobalt/20]
+craftEffect: none
+outputItem: carbon-steel/1
+consumes: {power: 2, items: {items: [steel/2, coal/3]}}
+research: steel-maker
+researchCostMultiplier: 1
+category: crafting

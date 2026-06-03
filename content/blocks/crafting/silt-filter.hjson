@@ -1,0 +1,15 @@
+name: Silt Seperator
+type: GenericCrafter
+health: 450
+size: 2
+hasLiquids: false
+hasPower: false
+hasItems: true
+craftTime: 60
+requirements: [steel/25, cobalt/60, zinc/80]
+craftEffect: none
+outputItem: sand/2
+consumes: {items:[silt/4]}
+research: steel-press
+researchCostMultiplier: 1
+category: crafting
